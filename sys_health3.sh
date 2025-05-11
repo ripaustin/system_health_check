@@ -3,7 +3,7 @@
 # === Settings ===
 TIMESTAMP=$(date +'%F_%H-%M-%S')
 LOGFILE="/var/log/sys_health_${TIMESTAMP}.log"
-WEBHOOK_URL="https://discord.com/api/webhooks/1371200349414752438/4VWOoSGI1XGOUoDKtGxHBTqepdpn0rGXsi5m0RsBmCYvcSbxIGAdf-3Th3NPM2v2pWze"  # <-- keep private or move to env var
+WEBHOOK_URL=""  # <-- keep private or move to env var
 MAX_DISCORD_CHARS=1900
 MAX_RETRIES=3
 RETRY_DELAY=60  # seconds
